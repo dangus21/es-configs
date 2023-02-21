@@ -14,7 +14,7 @@
 	"description": "Personal linting config",
 	"main": "index.js",
 	"scripts": {
-		"pub": "npm publish"
+		"pub": "git add . && git commit -m \"Bump\" && npm publish"
 	},
 	"keywords": [
 		"eslint"
