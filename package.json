@@ -3,7 +3,7 @@
 	"repository": {
 		"url": "https://github.com/dangus21/eslint-config-angusmiguel"
 	},
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Personal linting config",
 	"main": "index.js",
 	"scripts": {
