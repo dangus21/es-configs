@@ -10,7 +10,7 @@
 		"directory": "out",
 		"type": "git"
 	},
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Personal linting config",
 	"main": "index.js",
 	"scripts": {
@@ -20,7 +20,7 @@
 		"eslint"
 	],
 	"license": "ISC",
-	"devDependencies": {
+	"dependencies": {
 		"@babel/core": "^7.20.12",
 		"@babel/eslint-parser": "^7.19.1",
 		"@emotion/babel-plugin": "^11.10.5",
