@@ -10,7 +10,7 @@
 		"directory": "out",
 		"type": "git"
 	},
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "Personal linting config",
 	"main": "index.js",
 	"scripts": {
