@@ -1,9 +1,16 @@
 {
 	"name": "eslint-config-angusmiguel",
-	"repository": {
-		"url": "https://github.com/dangus21/eslint-config-angusmiguel"
+	"author": {
+		"email": "angusmiguel21@gmail.com",
+		"name": "angus",
+		"url": "https://github.com/dangus21"
 	},
-	"version": "1.0.1",
+	"repository": {
+		"url": "https://github.com/dangus21/eslint-config-angusmiguel",
+		"directory": "out",
+		"type": "git"
+	},
+	"version": "1.0.2",
 	"description": "Personal linting config",
 	"main": "index.js",
 	"scripts": {
@@ -12,7 +19,6 @@
 	"keywords": [
 		"eslint"
 	],
-	"author": "dangus21",
 	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "^7.20.12",
