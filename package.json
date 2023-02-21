@@ -1,5 +1,8 @@
 {
 	"name": "eslint-config-angusmiguel",
+	"repository": {
+		"url": "https://github.com/dangus21/eslint-config-angusmiguel"
+	},
 	"version": "1.0.0",
 	"description": "Personal linting config",
 	"main": "index.js",
