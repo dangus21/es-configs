@@ -1,24 +1,15 @@
 module.exports = {
-	"env": {
-		"browser": true,
-		"es6": true,
-		"node": true
+	env: {
+		browser: true,
+		es6: true,
+		node: true
 	},
-	"extends": [
+	extends: [
 		"plugin:react/recommended",
 		"eslint:recommended",
 		"plugin:import/errors",
-		"plugin:import/warnings",
-		"plugin:import/typescript"
+		"plugin:import/warnings"
 	],
-	parserOptions: {
-		ecmaFeatures: {
-			jsx: true
-		},
-		ecmaVersion: 2018,
-		sourceType: "module",
-		project: ["./tsconfig.json"]
-	},
 	plugins: [
 		"react",
 		"react-hooks",
@@ -28,7 +19,12 @@ module.exports = {
 		"import"
 	],
 	rules: {
-		quotes: [2, "double", { "avoidEscape": true }],
+		quotes: [
+			2,
+			"double", {
+				avoidEscape: true
+			}
+		],
 		indent: ["error", "tab"],
 		semi: ["error", "always"],
 		"react/react-in-jsx-scope": "off",
@@ -39,9 +35,17 @@ module.exports = {
 		"react-hooks/exhaustive-deps": "warn",
 		"react/jsx-curly-brace-presence": [
 			"error",
-			{ "props": "never", "children": "never" }
+			{
+				props: "never",
+				children: "never"
+			}
 		],
-		"no-multiple-empty-lines": ["error", { "max": 1 }],
+		"no-multiple-empty-lines": [
+			"error",
+			{
+				max: 1
+			}
+		],
 		"no-trailing-spaces": ["error"],
 		"no-use-before-define": "error",
 		"prefer-const": "error",
@@ -51,26 +55,24 @@ module.exports = {
 		"sort-imports-es6-autofix/sort-imports-es6": [
 			2,
 			{
-				"ignoreCase": false,
-				"ignoreMemberSort": false,
-				"memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+				ignoreCase: false,
+				ignoreMemberSort: false,
+				memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
 			}
 		],
-		"no-unused-vars": [2, { "ignoreRestSiblings": true }],
+		"no-unused-vars": [
+			2,
+			{
+				ignoreRestSiblings: true
+			}
+		],
 		"no-dupe-class-members": ["error"],
 		"import/no-extraneous-dependencies": [
 			"error",
-			{ "devDependencies": true }
+			{
+				devDependencies: true
+			}
 		],
 		"prefer-template": ["error"]
-		// "no-console": ["error"],
-	},
-	overrides: [
-		{
-			files: ["*.ts", "*.tsx"],
-			extends: ["plugin:import/typescript"],
-			parser: "@typescript-eslint/parser",
-			plugins: ["@typescript-eslint"]
-		}
-	]
+	}
 };
