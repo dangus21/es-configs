@@ -1,6 +1,11 @@
-const eslintrc_node = require("./configs/node/.eslintrc.js");
-const eslintrc_react = require("./configs/react/.eslintrc.js");
+const eslintrc_node = require("./configs/eslint/node/.eslintrc.js");
+const eslintrc_react = require("./configs/eslint/react/.eslintrc.js");
+const eslintrc_ts = require("./configs/eslint/typescript/.eslintrc.js");
 
 module.exports = {
-	reactConfig: eslintrc_react,
+	eslint: {
+		reactConfig: eslintrc_react,
+		nodeConfig: eslintrc_node,
+		tsConfig: eslintrc_ts,
+	}
 };
