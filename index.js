@@ -3,7 +3,6 @@ const eslintrc_react = require("./configs/eslint/react/.eslintrc.js");
 const eslintrc_ts = require("./configs/eslint/typescript/.eslintrc.js");
 
 const tsconfig = require("./configs/tsconfig.json");
-console.log('LOG ~ file: index.js:6 ~ tsconfig:', JSON.stringify(tsconfig));
 
 
 module.exports = {
