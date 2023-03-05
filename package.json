@@ -1,20 +1,21 @@
 {
-	"name": "eslint-config-angusmiguel",
-	"author": {
-		"email": "angusmiguel21@gmail.com",
-		"name": "angus",
-		"url": "https://github.com/dangus21"
-	},
+	"name": "@angusmiguel/es-configs",
+	"author": "angus <angusmiguel21@gmail.com> (https://github.com/dangus21)",
 	"repository": {
-		"url": "https://github.com/dangus21/eslint-config-angusmiguel",
+		"url": "git+https://github.com/dangus21/eslint-config-angusmiguel.git",
 		"directory": "out",
 		"type": "git"
 	},
-	"version": "1.0.12",
+	"version": "1.0.0",
 	"description": "Personal linting config",
 	"main": "index.js",
+	"files": [
+		".prettierrc",
+		".editorconfig",
+		"configs"
+	],
 	"scripts": {
-		"pub": "npm version patch --force && git add . && git commit -m \"Bump\" && npm publish"
+		"pub": "npm version patch --force && git add . && git commit -m \"Bump\" && npm publish --access public"
 	},
 	"keywords": [
 		"eslint"
@@ -41,5 +42,10 @@
 		"eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
 		"eslint-plugin-unused-imports": "^2.0.0",
 		"prettier": "^2.8.3"
-	}
+	},
+	"bugs": {
+		"url": "https://github.com/dangus21/eslint-config-angusmiguel/issues"
+	},
+	"homepage": "https://github.com/dangus21/eslint-config-angusmiguel#readme",
+	"devDependencies": {}
 }

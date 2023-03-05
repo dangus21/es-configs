@@ -1,3 +1,3 @@
-# eslint-config-angusmiguel
+# es-configs
 
-Personal eslint config.
+Personal configs for ecmascript ecosystem.
