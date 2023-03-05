@@ -6,7 +6,7 @@
 		"directory": "out",
 		"type": "git"
 	},
-	"version": "1.0.3",
+	"version": "1.0.1",
 	"description": "Personal linting config",
 	"main": "index.js",
 	"files": [
@@ -15,7 +15,7 @@
 		"configs"
 	],
 	"scripts": {
-		"pub": "npm version patch --force && git add . && git commit -m \"Bump\" && npm publish --access public"
+		"pub": "npm version patch --force && git add . && git commit -m \"Bump\" && git push && npm publish --access public"
 	},
 	"keywords": [
 		"eslint"
