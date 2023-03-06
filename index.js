@@ -7,8 +7,8 @@ const tsconfig = require("./configs/tsconfig.json");
 
 module.exports = {
 	eslint: {
-		reactConfig: eslintrc_react,
 		nodeConfig: eslintrc_node,
+		reactConfig: eslintrc_react,
 		tsConfig: eslintrc_ts,
 	},
 	tsconfig,

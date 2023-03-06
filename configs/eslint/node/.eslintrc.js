@@ -15,14 +15,14 @@ module.exports = {
 		"sort-imports-es6-autofix"
 	],
 	rules: {
-		quotes: [
+		"quotes": [
 			2,
 			"double", {
-				avoidEscape: true
+				"avoidEscape": true
 			}
 		],
-		indent: ["error", "tab"],
-		semi: ["error", "always"],
+		"indent": ["error", "tab"],
+		"semi": ["error", "always"],
 		"no-multiple-empty-lines": [
 			"error",
 			{
@@ -38,22 +38,22 @@ module.exports = {
 		"sort-imports-es6-autofix/sort-imports-es6": [
 			2,
 			{
-				ignoreCase: false,
-				ignoreMemberSort: false,
-				memberSyntaxSortOrder: ["none", "all", "multiple", "single"]
+				"ignoreCase": false,
+				"ignoreMemberSort": false,
+				"memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
 			}
 		],
 		"no-unused-vars": [
 			2,
 			{
-				ignoreRestSiblings: true
+				"ignoreRestSiblings": true
 			}
 		],
 		"no-dupe-class-members": ["error"],
 		"import/no-extraneous-dependencies": [
 			"error",
 			{
-				devDependencies: true
+				"devDependencies": true
 			}
 		],
 		"prefer-template": ["error"]

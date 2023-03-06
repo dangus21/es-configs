@@ -12,7 +12,8 @@
 	"files": [
 		".prettierrc",
 		".editorconfig",
-		"configs"
+		"configs",
+		"types.d.ts"
 	],
 	"scripts": {
 		"pub": "npm version patch --force && git add . && git commit -m \"Bump\" && git push && npm publish --access public",
@@ -21,6 +22,7 @@
 	"keywords": [
 		"eslint"
 	],
+	"types": "types.d.ts",
 	"license": "ISC",
 	"dependencies": {
 		"@babel/core": "^7.20.12",
