@@ -25,26 +25,15 @@
 	"types": "types.d.ts",
 	"license": "ISC",
 	"dependencies": {
-		"@babel/core": "^7.20.12",
-		"@babel/eslint-parser": "^7.19.1",
-		"@emotion/babel-plugin": "^11.10.5",
-		"@types/node": "^18.11.18",
-		"@types/react": "^18.0.27",
 		"@typescript-eslint/eslint-plugin": "^5.49.0",
 		"@typescript-eslint/parser": "^5.49.0",
 		"eslint": "^8.32.0",
-		"eslint-config-google": "^0.14.0",
-		"eslint-config-next": "^13.1.6",
-		"eslint-config-prettier": "^8.6.0",
-		"eslint-import-resolver-node": "^0.3.7",
 		"eslint-plugin-babel": "^5.3.1",
 		"eslint-plugin-import": "^2.27.5",
-		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.32.1",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
 		"eslint-plugin-unused-imports": "^2.0.0",
-		"prettier": "^2.8.3"
 	},
 	"bugs": {
 		"url": "https://github.com/dangus21/eslint-config-angusmiguel/issues"
