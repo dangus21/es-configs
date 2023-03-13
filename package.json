@@ -6,7 +6,7 @@
 		"directory": "out",
 		"type": "git"
 	},
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Personal linting config",
 	"main": "index.js",
 	"files": [
