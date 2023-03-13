@@ -12,11 +12,12 @@
 	"files": [
 		".prettierrc",
 		".editorconfig",
-		"configs",
-		"types.d.ts"
+		"./dist"
 	],
 	"scripts": {
 		"pub": "npm version patch --force && git add . && git commit -m \"Bump\" && git push && npm publish --access public",
+		"comp": "tsc",
+		"comp:watch": "tsc --watch",
 		"test": ""
 	},
 	"keywords": [
@@ -33,11 +34,13 @@
 		"eslint-plugin-react": "^7.32.1",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-		"eslint-plugin-unused-imports": "^2.0.0",
+		"eslint-plugin-unused-imports": "^2.0.0"
 	},
 	"bugs": {
 		"url": "https://github.com/dangus21/eslint-config-angusmiguel/issues"
 	},
 	"homepage": "https://github.com/dangus21/eslint-config-angusmiguel#readme",
-	"devDependencies": {}
+	"devDependencies": {
+		"typescript": "^4.9.5"
+	}
 }
