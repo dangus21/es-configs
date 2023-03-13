@@ -26,7 +26,7 @@ function configure(configs: Array<keyof typeof availableConfigs>, currentConfig:
 	return result;
 }
 
-export default {
+const configs = {
 	eslint: {
 		configure,
 		availableConfigs,
@@ -35,4 +35,6 @@ export default {
 		tsConfig: eslintrc_ts,
 	},
 	tsconfig,
-};
+}
+
+export { configs };
