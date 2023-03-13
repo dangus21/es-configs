@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.configs = void 0;
 const _eslintrc_js_1 = __importDefault(require("./configs/eslint/node/.eslintrc.js"));
 const _eslintrc_js_2 = __importDefault(require("./configs/eslint/react/.eslintrc.js"));
 const _eslintrc_js_3 = __importDefault(require("./configs/eslint/typescript/.eslintrc.js"));
@@ -24,7 +25,7 @@ function configure(configs, currentConfig) {
     }
     return result;
 }
-exports.default = {
+const configs = {
     eslint: {
         configure,
         availableConfigs,
@@ -34,4 +35,5 @@ exports.default = {
     },
     tsconfig: tsconfig_json_1.default,
 };
+exports.configs = configs;
 //# sourceMappingURL=index.js.map

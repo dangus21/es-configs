@@ -3,8 +3,8 @@ declare const availableConfigs: {
     readonly react: "react";
     readonly ts: "ts";
 };
-declare function configure(configs: Array<keyof typeof availableConfigs>, currentConfig: Record<string, unknown>): Record<string, unknown>;
-declare const _default: {
+declare function configure(configs: Array<keyof typeof availableConfigs>, currentConfig: Record<string, unknown>): any;
+declare const configs: {
     eslint: {
         configure: typeof configure;
         availableConfigs: {
@@ -215,4 +215,4 @@ declare const _default: {
         };
     };
 };
-export default _default;
+export { configs };
