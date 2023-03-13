@@ -19,7 +19,7 @@ const configsMap = {
     [availableConfigs.ts]: _eslintrc_js_3.default,
 };
 function configure(configs, currentConfig) {
-    let result = structuredClone(currentConfig);
+    let result = Object.assign({}, currentConfig);
     for (const key of configs) {
         Object.assign(result, configsMap[key]);
     }

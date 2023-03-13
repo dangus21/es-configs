@@ -17,7 +17,7 @@ const configsMap = {
 }
 
 function configure(configs: Array<keyof typeof availableConfigs>, currentConfig: Record<string, unknown>) {
-	let result = structuredClone(currentConfig);
+	let result = { ...currentConfig };
 
 	for (const key of configs) {
 		Object.assign(result, configsMap[key])

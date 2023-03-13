@@ -3,7 +3,9 @@ declare const availableConfigs: {
     readonly react: "react";
     readonly ts: "ts";
 };
-declare function configure(configs: Array<keyof typeof availableConfigs>, currentConfig: Record<string, unknown>): any;
+declare function configure(configs: Array<keyof typeof availableConfigs>, currentConfig: Record<string, unknown>): {
+    [x: string]: unknown;
+};
 declare const configs: {
     eslint: {
         configure: typeof configure;
